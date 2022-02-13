@@ -7,6 +7,7 @@ answer=[]
 for _ in range(n):
     meet_list.append(list(map(int,input().split())))
 meet_list.sort(key=lambda x:(x[1],x[0]))
+print(meet_list)
 for meet in meet_list:
     if not answer:
         answer.append(meet)
