@@ -10,5 +10,4 @@ min_cost=costs[0]
 for i in range(0,len(costs)):
     min_cost=min(min_cost,costs[i])
     cost += min_cost*roads[i]
-
 print(cost)
