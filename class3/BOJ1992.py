@@ -33,7 +33,7 @@ def quadtree(n,r):
         for i in range(x,x+(n//2)+1,n//2):
             for j in range(y, y+(n // 2) + 1, n // 2):
                 quadtree(n//2,(i,j))
-        answer +=')'
+        answer += ')'
     return
 quadtree(n,(0,0))
 print(answer)
